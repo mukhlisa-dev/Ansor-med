@@ -101,7 +101,8 @@ img {
   margin-left: auto;
 }
 
-.button-white {
+.button:hover {
+  opacity: 0.8;
 }
 
 /* Site-header */
@@ -149,5 +150,41 @@ img {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+/* Hero */
+.hero {
+  background-color: #0eb4c1; 
+  color: #fff;
+}
+
+.hero-container {
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 60px;
+}
+
+.about {
+  margin-top: 120px;
+} 
+
+.about-title {
+  font-size: 36px;
+  line-height: 120%;
+  font-weight: 700;
+}
+
+.about-text {
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+  width: 440px;
+  margin-bottom: 30px;
+}
+
+.hero-img {
+  margin-left: auto;
+  width: 423px;
+  height: 504px;
 }
 
