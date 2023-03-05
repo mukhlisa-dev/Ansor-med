@@ -105,6 +105,19 @@ img {
   opacity: 0.8;
 }
 
+.button-white {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 15px;
+  line-height: 120%;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
 /* Site-header */
 .site-header {
   display: flex;
@@ -188,3 +201,101 @@ img {
   height: 504px;
 }
 
+
+/* Main content */
+/* Services */
+.services {
+
+}
+
+.services-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 144px;
+  padding-right: 144px;
+}
+
+.services-title {
+  font-size: 36px;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.methods-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.methods-item {
+  display: flex;
+}
+
+.methods-item:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+.methods-img {
+  width: 200px;
+  height: 200px;
+}
+
+.methods-about {
+  margin-left: 60px;
+}
+
+.methods-title {
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 700;
+}
+
+.methods-text {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  width: 600px;
+  color: #444444;
+}
+
+.button-center {
+ align-items: center;
+ text-align: center;
+}
+
+
+/* register */
+.register {
+  background-color: #0eb4c1;
+}
+
+.register-container {
+  padding-top: 60px;
+  padding-bottom: 12px;
+  align-items: center;
+}
+
+.register-info {
+  justify-content: center;
+}
+
+.register-title {
+  align-items: center;
+  text-align: center;
+  font-size: 36px;
+  line-height: 120%;
+  font-weight: 700;
+  color: #fff;
+}
+
+.register-buttons {
+  /* align-items: center; */
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 64px;
+}
+
+.button-buttons:not(:last-child) {
+  margin-right: 23px;
+}
